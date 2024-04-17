@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+  width: 90%;
+  margin: auto;
+ 
+  height: auto;
+}
+body{
+    /* background-color: rgb(31, 99, 177); */
+    background: rgb(168,110,208);
+background: linear-gradient(90deg, rgba(168,110,208,1) 0%, rgba(208,55,120,1) 59%, rgba(245,9,93,0.7120098039215687) 100%);
+}
+.header{
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+}
+.logo{
+    float: left;
+    width: 40%;
+    h1{
+        color:white
+    }
+}
+.menu{
+    float: right;
+    width:40%;
+    a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 22px;
+    }
+}
+.content{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.profile{
+    width: 30%;
+    float: left;
+    img{
+        border-radius: 250px;
+    }
+}
+.info{
+    width:50%;
+    float: right;
+    p{
+        color: white;
+        font-size: 60px;
+    }
+}
+
